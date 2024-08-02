@@ -17,6 +17,7 @@
   #taskInput{
     width: 300px;
     padding: 10px 10px;
+    border-radius: 4px;
   }
   .taskList{
     display: block;

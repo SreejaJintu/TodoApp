@@ -1,0 +1,16 @@
+.ListItems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ListItems h3{
+    width: 200px;
+}
+.ListItems button{
+    height: 20px;
+    background-color: #ced6ebee;
+    border-radius: 5px;
+}
+.ListItems h3{
+    text-decoration: ;
+}
