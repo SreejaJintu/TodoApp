@@ -1,4 +1,5 @@
 .Todo-container{
+
     background-color: rgb(156, 207, 248);
     border: 1px solid black;
     padding-block: 30px;
@@ -8,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 6px;
+    gap: 20px;
   }
   .top_container{
     display: flex;

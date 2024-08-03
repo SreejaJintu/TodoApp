@@ -1,5 +1,6 @@
 .ListItems{
     display: flex;
+    flex-direction: column;
     gap: 20px;
     align-items: center;
 }
@@ -11,3 +12,18 @@
     background-color: #ced6ebee;
     border-radius: 5px;
 }
+.taskname.done{
+    text-decoration: line-through;
+
+}
+.items{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
