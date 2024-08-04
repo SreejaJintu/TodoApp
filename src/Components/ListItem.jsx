@@ -26,7 +26,7 @@ function ListItem({tasks,setTasks}) {
     <div className='ListItems'>
       {tasks.map((task,i)=>(
         <div key={i} className='items' >
-        <h3 className={`taskname ${task.status ? 'done' : ''}` }>{task.text}</h3>
+        <h3 className={`taskname ${task.status ? 'done' : ''}` }>{i+1}.{task.text}</h3>
         <button onClick={()=>handleDelete(i)}>Delete</button>
         <button onClick={()=>markAsDone(i)}>Mark as Done</button>
 </div>
